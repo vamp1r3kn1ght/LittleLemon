@@ -15,4 +15,4 @@ class Menu(models.Model):
     inventory = models.PositiveSmallIntegerField();
     
     def __str__(self) -> str:
-        return f"{self.title}, In Stock: {self.inventory}";
+        return f"{self.title} : {self.price}";
